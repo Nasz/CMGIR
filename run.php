@@ -1,5 +1,5 @@
 <?php 
-require 'cmir.php';
+require 'class-cmir.php';
 $class = new coinmaster;
 popen('cls', 'w');
 echo "------------------ PRO Activate Invite Link ------------------\n";
@@ -15,4 +15,5 @@ for ($i=0; $i < $count; $i++) {
 	}
 }
 echo "ALL COMPLETE";
+readline("Enter to Exit");
 ?>
